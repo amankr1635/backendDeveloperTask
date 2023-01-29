@@ -4,7 +4,7 @@ const isValidEmail = function (email) {
   };
   const passwordVal = function (password) {
     var strongRegex = new RegExp(
-      "^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*]).{8,15}$"
+      "^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*]).{8,12}$"
     );
     /*at least 1 lowercase, at least 1 uppercase,contain at least 1 numeric character,
       at least one special character, range between 8-12*/
