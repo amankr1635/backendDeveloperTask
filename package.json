@@ -4,7 +4,8 @@
   "description": "bonus project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/amankr1635/backendDeveloperTask/issues"
   },
-  "homepage": "https://github.com/amankr1635/backendDeveloperTask#readme"
+  "homepage": "https://github.com/amankr1635/backendDeveloperTask#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.9.0",
+    "nodemon": "^2.0.20"
+  }
 }
